@@ -462,34 +462,7 @@ html, body, .hello-parent {
   </div>
 </nav>
 <header id='header'>
-  <h1>&mdash; SCROLL DOWN &mdash;<em>Also check <a href="https://codepen.io/WhiteWolfWizard/pen/KwzKGQ" target="_blank">this</a> out too.</em></h1>
-</header>
-<script src='//production-assets.codepen.io/assets/common/stopExecutionOnTimeout-b2a7b3fe212eaa732349046d8416e00a9dec26eb7fd347590fbced3ab38af52e.js'></script><script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script src='https://goo.gl/aKZw83'></script>
-<script>$( function () {
-  var $navi = $('#navigation');
-  $(window).scroll( function () {
-    var y = $(this).scrollTop(),
-        speed = 0.15,
-        height = (y * speed).toFixed(2),
-        maxHeight = $navi.find('.frame').outerHeight();
-    // HEIGHT
-    if ( height > maxHeight ) { height = maxHeight; }
-    else if ( height < 0 ) { height = 0; }
-    // APPLY STYLEING
-    $navi.height(height);
-  });
-});
-//# sourceURL=pen.js
-	</script>
-	
-	
-<div class="intro-animation">
-	<div class="left"></div>
-	<div class="right"></div>
-</div> 
-<!-- This is a recreation of the SVG animation that can be found on Wokine.com -->
-	
-	
+ 	
 <div class="hello-parent">
   
 <svg class="hello-word" width="290" height="290" viewBox="0 0 365 365">
@@ -536,6 +509,33 @@ html, body, .hello-parent {
 	
 </svg>
 </div>
+</header>
+<script src='//production-assets.codepen.io/assets/common/stopExecutionOnTimeout-b2a7b3fe212eaa732349046d8416e00a9dec26eb7fd347590fbced3ab38af52e.js'></script><script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script src='https://goo.gl/aKZw83'></script>
+<script>$( function () {
+  var $navi = $('#navigation');
+  $(window).scroll( function () {
+    var y = $(this).scrollTop(),
+        speed = 0.15,
+        height = (y * speed).toFixed(2),
+        maxHeight = $navi.find('.frame').outerHeight();
+    // HEIGHT
+    if ( height > maxHeight ) { height = maxHeight; }
+    else if ( height < 0 ) { height = 0; }
+    // APPLY STYLEING
+    $navi.height(height);
+  });
+});
+//# sourceURL=pen.js
+	</script>
+	
+	
+<div class="intro-animation">
+	<div class="left"></div>
+	<div class="right"></div>
+</div> 
+<!-- This is a recreation of the SVG animation that can be found on Wokine.com -->
+	
+
 
 <script src='//production-assets.codepen.io/assets/common/stopExecutionOnTimeout-b2a7b3fe212eaa732349046d8416e00a9dec26eb7fd347590fbced3ab38af52e.js'></script><script src='//cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js'></script><script src='//cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js'></script>
 <script>$(".intro-animation .left")
