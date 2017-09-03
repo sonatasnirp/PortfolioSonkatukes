@@ -145,7 +145,7 @@ p.lead {
     color: #ea574d;
 	    font-family: 'Merriweather Sans', sans-serif !important;
     font-weight: 800;
-	
+	padding-left:420px;
 }
 .reset-margin {
     margin: 0 !important;
