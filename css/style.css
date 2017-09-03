@@ -238,9 +238,11 @@ p.lead {
 }
 .home-header-wrapper-bg {
     content: "";
-   /* background: #ffffff url(../images/y3.jpg) center center no-repeat fixed;*/
-	background: #ffffff url('https://images.unsplash.com/photo-1491186751821-59a0a1bd73f1?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=') center center no-repeat fixed; 
-    background-size: cover;
+   /* background: #ffffff url(../images/y3.jpg) center center no-repeat fixed;
+	background: #ffffff url('https://images.unsplash.com/photo-1491186751821-59a0a1bd73f1?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=') center center no-repeat fixed; */
+   background: #ffffff url('https://images.unsplash.com/photo-1496450080853-5f78c43af9e9?dpr=1&auto=format&fit=crop&w=1080&h=720&q=80&cs=tinysrgb&crop=') center center no-repeat fixed; 
+
+	background-size: cover;
     top: 0;
     left: 0;
     bottom: 0;
