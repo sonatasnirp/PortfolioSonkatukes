@@ -104,7 +104,7 @@ html, body {
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: 'Merriweather Sans', sans-serif !important;
     font-weight: 800;
-    color: #e4405d;
+    color: #f9f7f7;
     letter-spacing: -2;
 }
 .sans-serif {
@@ -238,9 +238,9 @@ p.lead {
 }
 .home-header-wrapper-bg {
     content: "";
-   /* background: #ffffff url(../images/y3.jpg) center center no-repeat fixed;
-	background: #ffffff url('https://images.unsplash.com/photo-1491186751821-59a0a1bd73f1?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=') center center no-repeat fixed; */
-   background: #ffffff url('https://images.unsplash.com/photo-1496450080853-5f78c43af9e9?dpr=1&auto=format&fit=crop&w=1080&h=720&q=80&cs=tinysrgb&crop=') center center no-repeat fixed; 
+   /* background: #ffffff url(../images/y3.jpg) center center no-repeat fixed;*/
+	/*background: #ffffff url('https://images.unsplash.com/photo-1491186751821-59a0a1bd73f1?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=') center center no-repeat fixed;*/
+  background: #e25548 !important;
 
 	background-size: cover;
     top: 0;
