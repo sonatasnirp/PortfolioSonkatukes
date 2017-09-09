@@ -242,17 +242,17 @@ p.lead {
    /* background: #ffffff url(../images/y3.jpg) center center no-repeat fixed;*/
 	/*background: #ffffff url('https://images.unsplash.com/photo-1491186751821-59a0a1bd73f1?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=') center center no-repeat fixed;
   */
-	background: #e25548 !important;
+	background: #ff5851 !important;
 
 	background-size: cover;
-    top: 20 px;
-    left: 20 px;
-    bottom: 0;
-    right: 20 px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
     position: absolute;
     z-index: 0;
-    animation: bg-zoom 30s infinite alternate ease-in-out;
-    -webkit-animation: bg-zoom 30s infinite alternate ease-in-out;
+    /*animation: bg-zoom 30s infinite alternate ease-in-out;
+    -webkit-animation: bg-zoom 30s infinite alternate ease-in-out;*/
 }
 @media only screen and (max-width: 768px) {
     html {
