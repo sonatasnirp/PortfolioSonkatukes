@@ -240,14 +240,15 @@ p.lead {
 .home-header-wrapper-bg {
     content: "";
    /* background: #ffffff url(../images/y3.jpg) center center no-repeat fixed;*/
-	background: #ffffff url('https://images.unsplash.com/photo-1491186751821-59a0a1bd73f1?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=') center center no-repeat fixed;
- /* background: #e25548 !important;*/
+	/*background: #ffffff url('https://images.unsplash.com/photo-1491186751821-59a0a1bd73f1?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=') center center no-repeat fixed;
+  */
+	background: #e25548 !important;
 
 	background-size: cover;
-    padding-top: 20 px;
-    padding-left: 20 px;
+    top: 20 px;
+    left: 20 px;
     bottom: 0;
-    padding-right: 20 px;
+    right: 20 px;
     position: absolute;
     z-index: 0;
     animation: bg-zoom 30s infinite alternate ease-in-out;
