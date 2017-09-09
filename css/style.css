@@ -96,12 +96,6 @@ html, body {
     color: #666;
 }
 
-body {
-	margin-top: 10px;
- margin-right: 10px;
- margin-bottom:10px;
- margin-left: 10px
-}
 .serif {
     font-family: 'Merriweather', serif !important;
 }
@@ -250,10 +244,10 @@ p.lead {
  /* background: #e25548 !important;*/
 
 	background-size: cover;
-    top: 0;
-    left: 0;
+    padding-top: 20 px;
+    padding-left: 20 px;
     bottom: 0;
-    right: 0;
+    padding-right: 20 px;
     position: absolute;
     z-index: 0;
     animation: bg-zoom 30s infinite alternate ease-in-out;
