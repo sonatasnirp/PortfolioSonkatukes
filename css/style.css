@@ -438,7 +438,7 @@ p.lead {
     border-top-color: #000 !important;
 }
 .cbp-caption-zoom .cbp-caption-activeWrap {
-    background: #d4d4d4;
+    background: #ff5851 !important;
 }
 .cbp a .h3 {
     transition: all 0.2s ease;
