@@ -86,7 +86,7 @@
 }
 #curtain .door-right {
 	left: 49%;
-    background: #e2e2e2;
+    background: #222222;
 }
 
 /*Typo*/
@@ -130,7 +130,7 @@ a:before {
     height: 100%;
     bottom: 0;
     left: -5%;
-    background-color: yellow;
+    background-color: #222222;
     visibility: hidden;
     -ms-transform: skewX(-20deg); /* IE 9 */
     -webkit-transform: skewX(-20deg); /* Safari */
