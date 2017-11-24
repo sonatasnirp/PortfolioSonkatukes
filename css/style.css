@@ -82,11 +82,11 @@
 }
 #curtain .door-left {
 	left: -49%;
-    background: yellow;
+    background: #ff5851;
 }
 #curtain .door-right {
 	left: 49%;
-    background: yellow;
+    background: #e2e2e2;
 }
 
 /*Typo*/
