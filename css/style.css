@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic|Merriweather+Sans:400,300,300italic,400italic,700,700italic,800,800italic&subset=latin,latin-ext);
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
 
 #mySVG * {
   fill-opacity: 0;
@@ -103,9 +104,9 @@ html, body {
     font-weight: 100 !important;
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family: 'Merriweather Sans', sans-serif !important;
+    font-family: 'Gloria Hallelujah', cursive; !important;
     font-weight: 800;
-    color: #1c1b20;
+    color: #fff;
     letter-spacing: -2;
 }
 .sans-serif {
@@ -242,7 +243,7 @@ p.lead {
    /* background: #ffffff url(../images/y3.jpg) center center no-repeat fixed;*/
 	/*background: #ffffff url('https://images.unsplash.com/photo-1491186751821-59a0a1bd73f1?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=') center center no-repeat fixed;
   */
-	background: #ff5851 !important;
+	background: #92d8e8 !important;
 
 	background-size: cover;
 	    top: 0;
