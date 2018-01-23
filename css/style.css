@@ -162,7 +162,7 @@ p.lead {
 }
 .add-separator {
     display: inline-block;
-    background: url(../images/zigzag.svg) left bottom repeat-x;
+    background: url(http://www.clker.com/cliparts/p/V/5/n/E/0/line.svg) left bottom repeat-x;
     padding-bottom: 20px;
 }
 .position-relative {
@@ -241,10 +241,9 @@ p.lead {
 }
 .home-header-wrapper-bg {
     content: "";
-   /* background: #ffffff url(../images/y3.jpg) center center no-repeat fixed;*/
-	/*background: #ffffff url('https://images.unsplash.com/photo-1491186751821-59a0a1bd73f1?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=') center center no-repeat fixed;
-  */
-	background: #92d8e8 !important;
+    background: #ffffff url('https://images.unsplash.com/photo-1504489154748-d2b48cf53875?auto=format&fit=crop&w=1350&q=80') center center no-repeat fixed;
+	
+ 
 
 	background-size: cover;
 	    top: 0;
